@@ -27,3 +27,12 @@ user.meeting=function(){
 console.log(user.greetings());
 console.log(user.meeting());
 
+const course={
+    id:1,
+    name:"JavaScript",
+    duration:12,
+    price:1500
+}
+
+const {duration:time}=course;
+console.log(time);
